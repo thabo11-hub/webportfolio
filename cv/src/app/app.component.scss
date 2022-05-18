@@ -348,6 +348,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .top-nav-collapse .navbar-brand {
   top: 0px;
+  
 }
 
 .top-nav-collapse .navbar-brand img {
@@ -375,6 +376,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .menu-bg {
   background: transparent;
+  
 }
 
 .navbar-expand-lg .navbar-nav .nav-link i {
@@ -413,6 +415,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar {
+  background-color:#fff;
   padding: 0;
 }
 
@@ -640,6 +643,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 #hero-area .banner_bottom_btn i:hover {
   color: #ddd;
 }
+
 
 /* ==========================================================================
   Portfolio Section
@@ -994,4 +998,88 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 #copyright p a:hover {
   color: #00b4d9;
+}
+
+// Responsiveness
+
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #hero-area .contents .head-title {
+    font-size: 40px;
+  }
+  .services-item .services-content h3 a {
+    font-size: 14px;
+  }
+}
+
+/* tablets */
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .services-item .services-content h3 a {
+    font-size: 14px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+  }
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .services-item .services-content h3 a {
+    font-size: 16px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+  }
+  .counter-section .counter p {
+    font-size: 14px;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .section-sub {
+    font-size: 16px;
+  }
+  .navbar-brand img {
+    margin: 5px 0;
+  }
+  #hero-area .contents {
+    padding: 100px 0px 60px 0px;
+  }
+  #hero-area .contents .head-title {
+    font-size: 22px;
+  }
+  #hero-area .contents h5 {
+    font-size: 32px;
+  }
+  #hero-area .contents p {
+    font-size: 20px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+  }
+  .timeline li .line-title {
+    line-height: 26px;
+  }
+  .timeline li:first-child i {
+    margin: -12px -40px;
+  }
+  .contact-form-area {
+    padding: 40px 0px;
+  }
+  .footer-right-area {
+    margin-top: 20px;
+  }
 }
