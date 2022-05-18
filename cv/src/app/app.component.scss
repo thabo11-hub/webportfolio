@@ -416,7 +416,18 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar {
   background-color:#fff;
-  padding: 0;
+  //padding: 0;
+  margin-bottom: 10px;
+}
+
+.navbar-toggler-icon{
+  display:inline-block;
+  width:1.5em;
+  height:1.5em;
+  vertical-align:middle;
+  content:"";
+  background:no-repeat center center;
+  background-size:100% 100%
 }
 
 .navbar li.active a.nav-link {
@@ -524,12 +535,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #00b4d9;
 }
 
-/* only small tablets */
-@media (min-width: 768px) and (max-width: 991px) {
-  #nav-main li a.nav-link {
-    padding-top: 18px;
-  }
-}
+
 
 .navbar-toggler {
   display:inherit;
@@ -537,12 +543,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   float: right;
   cursor: pointer;
   display: block;
-  float: right;
   height: 35px;
   line-height: 50px;
   padding: 10px 0 9px;
   position: relative;
-  //vertical-align: middle;
   width: 44px;
 }
 
@@ -552,37 +556,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .slicknav_menu {
   display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .navbar-header {
-    width: 100%;
-  }
-  .navbar-brand {
-    position: absolute;
-    padding: 0px 15px;
-    top: 0;
-  }
-  .navbar-brand img {
-    width: 75%;
-  }
-  #mobile-menu {
-    display: none;
-  }
-  .slicknav_menu {
-    display: block;
-  }
-  .slicknav_nav .active a {
-    background: #E91E63;
-    color: #fff;
-  }
-  .slicknav_nav a:hover,
-  .slicknav_nav a:focus,
-  .slicknav_nav .active {
-    color: #00b4d9;
-    outline: none;
-    background: #f8f9fa;
-  }
 }
 
 /* ==========================================================================
@@ -1129,4 +1102,43 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+ 
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-main li a.nav-link {
+    padding-top: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-brand {
+    position: absolute;
+    padding: 0px 15px;
+    top: 0;
+  }
+  .navbar-brand img {
+    width: 75%;
+  }
+  #mobile-menu {
+    display:flex;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  .slicknav_nav .active a {
+    background: #E91E63;
+    color: #fff;
+  }
+  .slicknav_nav a:hover,
+  .slicknav_nav a:focus,
+  .slicknav_nav .active {
+    color: #00b4d9;
+    outline: none;
+    background: #f8f9fa;
+  }
 }
