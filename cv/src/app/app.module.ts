@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { EducationComponent } from './components/myeducation/education.component';
 import { SectionComponent } from './components/herosection/section.component';
 import { LoaderComponent } from './components/loader/loader.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     SectionComponent,
     EducationComponent,
-    LoaderComponent
+    LoaderComponent,
+    SkillsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

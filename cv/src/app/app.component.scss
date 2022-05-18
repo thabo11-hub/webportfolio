@@ -533,6 +533,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-toggler {
   display:inherit;
+  position:relative;
+  float: right;
 }
 
 .mobile-menu {
@@ -1082,4 +1084,40 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   .footer-right-area {
     margin-top: 20px;
   }
+}
+
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
