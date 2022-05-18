@@ -8,6 +8,7 @@ import { SectionComponent } from './components/herosection/section.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
     EducationComponent,
     LoaderComponent,
     SkillsComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

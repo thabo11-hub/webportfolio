@@ -535,6 +535,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   display:inherit;
   position:relative;
   float: right;
+  cursor: pointer;
+  display: block;
+  float: right;
+  height: 35px;
+  line-height: 50px;
+  padding: 10px 0 9px;
+  position: relative;
+  //vertical-align: middle;
+  width: 44px;
 }
 
 .mobile-menu {
