@@ -420,15 +420,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-bottom: 10px;
 }
 
-.navbar-toggler-icon{
-  display:inline-block;
-  width:1.5em;
-  height:1.5em;
-  vertical-align:middle;
-  content:"";
-  background:no-repeat center center;
-  background-size:100% 100%
-}
 
 .navbar li.active a.nav-link {
   color: #00b4d9;
@@ -535,7 +526,21 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #00b4d9;
 }
 
+.icon-menu::before{
+   display:flex;
+   width:1.5em;
+   height:1.5em;
+   //vertical-align:middle;
+   //content:"";
+   background:no-repeat center center;
+   background-size:100% 100%;
+   //margin-bottom: 4rem ;
+}
 
+
+// .icon-menu{
+//   //display: none;
+// }
 
 .navbar-toggler {
   display:inherit;
