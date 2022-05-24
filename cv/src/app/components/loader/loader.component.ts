@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgxUiLoaderService } from 'ngx-ui-loader';
 
 @Component({
   selector: 'app-loader',
@@ -8,20 +7,13 @@ import { NgxUiLoaderService } from 'ngx-ui-loader';
 })
 export class LoaderComponent implements OnInit {
 
-  constructor(private _loader: NgxUiLoaderService) { }
+  constructor() { }
 
   ngOnInit(): void {
     
-    this.loadStart
     
   }
 
-  loadStart(){
-    this._loader.start();
-  }
-
-  loadStop(){
-    this._loader.stop();
-  }
+  
 
 }
