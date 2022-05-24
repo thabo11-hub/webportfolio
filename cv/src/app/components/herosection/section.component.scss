@@ -1,62 +1,7 @@
-.about-profile{
-    position:relative;
-    margin:20px 0 30px 0
-}
-.about-profile .pro-title{
-    font-weight:700;
-    color:#040404;
-    position:relative;
-    width:120px;
-    display:inline-block;
-    margin-bottom:5px
-}
-.about-profile .pro-title:after{
-    position:absolute;
-    content:':';
-    color:#040404;
-    font-size:14px;
-    left:77px
-}
-.about-profile .admin-sign
-{
-    position:absolute;
-    right:45px;bottom:10px
-}
-
-.section-titile-bg {
-    display: inline;
-    font-size: 115px;
-    font-weight: 700;
-    height: 100%;
-    left: -173px;
-    opacity: 0.1;
-    position: absolute;
-    top: -14px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .section-title-header p {
-    //text: center;
-    font-weight: 400;
-    line-height: 26px;
-    padding-bottom: 36px;
-  }
 
   .section-padding {
     padding: 60px 0;
   }  
-  
-  .section-title {
-    color: #252525;
-    font-size: 38px;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 1;
-    margin-bottom: 48px;
-    padding: 0 10px;
-    position: relative;
-  }
   
   .btn {
     font-size: 14px;
@@ -95,7 +40,7 @@
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
   }
   
   .btn-danger:hover {
@@ -104,7 +49,7 @@
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
   }
   
   .btn-border {
@@ -117,17 +62,6 @@
     border: 1px solid #fff;
     color: #fff;
     background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  .btn-lg {
-    padding: 14px 33px;
-    text-transform: uppercase;
-    font-size: 16px;
-  }
-  
-  .btn-rm {
-    padding: 7px 10px;
-    text-transform: capitalize;
   }
   
   button:focus {
@@ -156,76 +90,28 @@
   vertical-align: middle;
   margin-right: 5px;
 }
-
-.about-profile {
-  position: relative;
-  margin: 20px 0 20px 0;
-}
-
-.about-profile .pro-title {
-  font-weight: 700;
-  color: #040404;
-  position: relative;
-  width: 120px;
-  display: inline-block;
-  margin-bottom: 5px;
-}
-
-.about-profile .pro-title:after {
-  position: absolute;
-  content: ':';
-  color: #040404;
-  font-size: 14px;
-  left: 77px;
-}
-
 .about-profile .admin-sign {
   position: absolute;
   right: 45px;
   bottom: 10px;
 }
 
-.counter-section {
-  //background: url(../img/background/bg-1.jpg);
-  overflow: hidden;
-  position: relative;
+.about-profile{
+  position:relative;
+  margin:20px 0 30px 0
 }
-
-.counter-section:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+.about-profile .pro-title{
+  font-weight:700;
+  color:#040404;
+  position:relative;
+  width:120px;
+  display:inline-block;
+  margin-bottom:5px
 }
-
-.counter-section .counter {
-  padding: 30px 0;
-}
-
-.counter-section .counter .icon {
-  margin-bottom: 30px;
-}
-
-.counter-section .counter .icon i {
-  font-size: 48px;
-  color: #00b4d9;
-}
-
-.counter-section .counter p {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin: 30px 0;
-}
-
-.counter-section .counter .counterUp {
-  color: #fff;
-  font-size: 42px;
-  margin-top: 15px;
-  font-weight: 700;
+.about-profile .pro-title:after{
+  position:absolute;
+  content:':';
+  color:#040404;
+  font-size:14px;
+  left:77px
 }

@@ -29,4 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installed packages
 npm install ngx-scrolltop --save
 npm install scrollreveal --save
-npm install express
+npm install express --save
