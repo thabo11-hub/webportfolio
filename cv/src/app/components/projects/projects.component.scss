@@ -2,12 +2,23 @@
     display:flex;
     justify-content: center;
     margin-top:50px;
+    
 }
 
 .card-columns{
     margin-bottom: 50px;
+    transition: all 300ms;
 }
 
-// .projects:hover{
+.card:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+}
 
-// }
+@media screen and (max-width: 768px) {
+    .card:hover {
+        opacity: 0.8;
+        transform: scale(1.10);
+    }
+}
+   
