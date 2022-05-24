@@ -524,20 +524,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .icon-menu::before{
-   display:flex;
+   display:none;
    width:1.5em;
    height:1.5em;
-   //vertical-align:middle;
-   //content:"";
    background:no-repeat center center;
    background-size:100% 100%;
-   //margin-bottom: 4rem ;
 }
-
-
-// .icon-menu{
-//   //display: none;
-// }
 
 .navbar-toggler {
   display:inherit;
@@ -1093,5 +1085,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     color: #00b4d9;
     outline: none;
     background: #f8f9fa;
+  }
+}
+
+@media  (max-width: 991px){
+  .icon-menu{
+    display:flex;
+    width:1.5em;
+    height:1.5em;
   }
 }
