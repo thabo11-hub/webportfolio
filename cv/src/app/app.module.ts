@@ -9,6 +9,8 @@ import { LoaderComponent } from './components/loader/loader.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ScrolltopComponent } from './components/scrolltop/scrolltop.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,12 +19,14 @@ import { ProjectsComponent } from './components/projects/projects.component';
     LoaderComponent,
     SkillsComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ScrolltopComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxUiLoaderModule
+    NgxUiLoaderModule,
+    NgxScrollTopModule
   ],
   providers: [],
   bootstrap: [AppComponent]
